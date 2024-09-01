@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C4180"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:text="Corse Regester" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="4dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+
+
+
+        <EditText
+            android:id="@+id/Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="4dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/white"
+            android:hint="Name"
+            android:padding="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="4dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+
+
+        <EditText
+            android:id="@+id/corse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="4dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/white"
+            android:hint="Corse"
+            android:padding="12dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="4dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/fee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="4dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/white"
+            android:hint="fee"
+            android:padding="12dp" />
+
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:layout_marginTop="8dp"
+    >
+    <Button
+        android:id="@+id/add"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="#083D76"
+        android:text="ADD"
+        android:textColor="#FFFFFF"
+        android:layout_marginHorizontal="4dp"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/view"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:background="#083D76"
+        android:layout_marginBottom="16dp"
+        android:text="VIEW"
+        android:layout_marginHorizontal="4dp"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>
+
+
+</LinearLayout>

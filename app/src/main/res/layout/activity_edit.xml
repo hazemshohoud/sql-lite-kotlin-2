@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3BCECE"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:text="Corse Regester UPDATE OR DELETE" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="4dp"
+        android:layout_marginTop="8dp"
+        android:visibility="invisible"
+        android:orientation="horizontal">
+
+
+
+
+        <EditText
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/white"
+            android:hint="id"
+            android:padding="12dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="4dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+
+
+        <EditText
+            android:id="@+id/Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/white"
+            android:hint="Name"
+            android:padding="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="4dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+
+
+        <EditText
+            android:id="@+id/corse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/white"
+            android:hint="Corse"
+            android:padding="12dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="4dp"
+        android:layout_marginTop="8dp"
+        android:padding="2dp"
+        android:orientation="horizontal">
+
+
+
+        <EditText
+            android:id="@+id/fee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/white"
+            android:hint="fee"
+            android:padding="12dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:background="#529253"
+        >
+        <Button
+            android:id="@+id/edite"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="#51D742"
+            android:text="Edite"
+            android:textColor="#FFFFFF"
+            android:layout_marginHorizontal="4dp"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/delet"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:background="#76083B"
+            android:layout_marginBottom="16dp"
+            android:text="Delete"
+            android:layout_marginHorizontal="4dp"
+            android:layout_marginTop="8dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
